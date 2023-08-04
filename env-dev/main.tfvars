@@ -21,18 +21,12 @@ parameters = [
   { name = "dev.payment.cart_port", value = "8080" },
   { name = "dev.payment.user_host", value = "user-dev.akrdevopsb72.online" },
   { name = "dev.payment.user_port", value = "8080" },
-  { name = "dev.payment.ampq_host", value = "rabbitmq-dev.akrdevopsb72.online" },
-  { name = "dev.payment.ampq_user", value = "roboshop" },
-  { name = "dev.payment.ampq_pass", value = "roboshop123" },
+  { name = "dev.payment.amqp_host", value = "rabbitmq-dev.akrdevopsb72.online" },
+  { name = "dev.payment.amqp_user", value = "roboshop" },
+  { name = "dev.payment.amqp_pass", value = "roboshop123" },
 ]
 
-Environment=CART_HOST=cart-dev.akrdevopsb72.online
-Environment=CART_PORT=8080
-Environment=USER_HOST=user-dev.akrdevopsb72.online
-Environment=USER_PORT=8080
-Environment=AMQP_HOST=rabbitmq-dev.akrdevopsb72.online
-Environment=AMQP_USER=roboshop
-Environment=AMQP_PASS=payment_appuser_password
+
 
 
 
