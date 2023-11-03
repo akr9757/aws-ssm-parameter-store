@@ -14,7 +14,6 @@ parameters = [
   { name = "prod.cart.catalogue_port", value = "80" },
   { name = "prod.shipping.cart_endpoint", value = "cart-prod.akrdevopsb72.online:80" },
   { name = "prod.rds.db_host", value = "rds-prod.cluster-cocierruamnt.us-east-1.rds.amazonaws.com" },
-  { name = "prod.rds.db_host", value = "rds-prod.cluster-cocierruamnt.us-east-1.rds.amazonaws.com" },
   { name = "prod.shipping.db_user", value = "root" },
   { name = "prod.payment.cart_host", value = "cart-prod.akrdevopsb72.online" },
   { name = "prod.payment.cart_port", value = "80" },
